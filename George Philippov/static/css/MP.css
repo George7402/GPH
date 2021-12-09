@@ -1,0 +1,128 @@
+.center_scroll{
+	margin-top: 8px;
+}
+.set_color_dark{
+background-color: #1A1A1A;
+border-radius: 10px;
+}
+.set_color_light{
+background-color: #FFFFFF;
+border-radius: 10px;
+}
+.settings{
+margin-left: 7px;
+margin-top: 10px;
+background-color: #4169E1;
+border-radius: 10px;
+color: #FFFFFF
+}
+#settings_button{
+	margin-left:10px;
+	
+}
+.light_text{
+color: #FFFFFF;
+}
+.dark_text{
+color: #000000;
+}
+.hr_dark{
+	background-color: #1A1A1A;
+	color: #1A1A1A;
+}
+.hr_light{
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+.toast_img{
+	height:10px;
+	width:10px;
+}
+.toast_opacity_0{
+	opacity: 0;
+}
+.toast_opacity_1{
+	opacity: 0.1;
+}
+.toast_opacity_2{
+	opacity: 0.2;
+}
+.toast_opacity_3{
+	opacity: 0.3;
+}
+.toast_opacity_4{
+	opacity: 0.4;
+}
+.toast_opacity_5{
+	opacity: 0.5;
+}
+.toast_opacity_6{
+	opacity: 0.6;
+}
+.toast_opacity_7{
+	opacity: 0.7;
+}
+.toast_opacity_8{
+	opacity: 0.8;
+}
+.toast_opacity_9{
+	opacity: 0.9;
+}
+.toast_opacity_10{
+	opacity: 1;
+}
+.Status_img_success{
+background:url("img/Success.png") no-repeat;
+background-color: #228c22;
+border-radius: 10px;
+}
+#status_success{
+	margin-top: 5px
+}
+.Status_img_warning{
+background:url("img/Warning_img.png") no-repeat;
+background-color: #d9d507;
+border-radius: 10px;
+}
+#status_warning{
+	margin-top: 5px
+}
+.Status_img_danger{
+background:url("img/Danger.png") no-repeat;
+background-color: #c72d0a;
+border-radius: 10px;
+}
+#status_danger{
+	margin-top: 5px
+}
+.Status{
+margin-left: 15px;
+margin-top: 10px;
+width: 160px;
+height: 160px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation::after {
+  content: '';
+  color:#FFFFFF;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.Logo{
+border-radius: 10px
+}
